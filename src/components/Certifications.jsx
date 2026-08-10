@@ -10,7 +10,7 @@ import {
 } from "react-icons/fa";
 
 import aiSkillsPassport from "../assets/certificates/AI-Skills-Passport.pdf";
-import aiToolsChatGPT from "../assets/certificates/AI-Tools-ChatGPT.pdf";
+import aiToolsChatGPT from "../assets/certificates/AI-Tools-Chatgpt.pdf";
 import ethicalHacking from "../assets/certificates/Ethical-Hacking.pdf";
 import ciscoNetworking from "../assets/certificates/Cisco-Hardware-Networking.pdf";
 import msExcel from "../assets/certificates/MS-Excel-Advanced.pdf";
