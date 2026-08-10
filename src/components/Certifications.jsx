@@ -25,42 +25,36 @@ function Certifications() {
       icon: <FaMicrosoft />,
       certificate: aiSkillsPassport,
     },
-
     {
       title: "AI Tools & ChatGPT",
       issuer: "be10x",
       icon: <FaRobot />,
       certificate: aiToolsChatGPT,
     },
-
     {
       title: "Ethical Hacking",
       issuer: "Certification",
       icon: <FaShieldAlt />,
       certificate: ethicalHacking,
     },
-
     {
       title: "Hardware & Networking",
       issuer: "Cisco Level 1",
       icon: <FaNetworkWired />,
       certificate: ciscoNetworking,
     },
-
     {
       title: "Advanced Excel",
       issuer: "Microsoft Excel",
       icon: <FaFileExcel />,
       certificate: msExcel,
     },
-
     {
       title: "GenAI Data Analytics",
       issuer: "Tata Group • Forage",
       icon: <FaChartLine />,
       certificate: tataDataAnalytics,
     },
-
     {
       title: "HR Analytics",
       issuer: "Certification",
@@ -70,11 +64,8 @@ function Certifications() {
   ];
 
   return (
-    <section
-      id="certifications"
-      className="min-h-screen bg-slate-900 text-white py-20 px-6 scroll-mt-24"
-    >
-      <div className="max-w-7xl mx-auto">
+    <section id="certifications" className="py-20">
+      <div className="container mx-auto px-4">
 
         {/* Section Heading */}
         <h2 className="text-5xl font-bold text-center text-cyan-400">
@@ -129,7 +120,6 @@ function Certifications() {
 
                 {/* View Certificate Button */}
                 <div className="mt-6 flex justify-center">
-
                   <a
                     href={certification.certificate}
                     target="_blank"
@@ -145,7 +135,6 @@ function Certifications() {
                     <FaCertificate />
                     View Certificate
                   </a>
-
                 </div>
 
               </div>
