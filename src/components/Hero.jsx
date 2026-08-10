@@ -39,8 +39,10 @@ function Hero() {
 
           <div className="flex gap-8 mt-10">
 
-           <a
-  href="mailto:prudhvich1116@gmail.com?subject=Job%20Opportunity%20for%20Prudhvi%20Chalapareddy"
+          <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=prudhvich1116@gmail.com&su=Job%20Opportunity%20for%20Prudhvi%20Chalapareddy"
+  target="_blank"
+  rel="noopener noreferrer"
   className="bg-cyan-500 text-slate-900 px-8 py-3 rounded-xl font-semibold hover:scale-105 hover:bg-cyan-400 transition-all duration-300"
 >
   Hire Me
