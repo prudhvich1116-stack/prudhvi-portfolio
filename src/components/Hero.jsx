@@ -39,13 +39,20 @@ function Hero() {
 
           <div className="flex gap-8 mt-10">
 
-            <button className="bg-cyan-500 text-slate-900 px-8 py-3 rounded-xl font-semibold hover:scale-105 hover:bg-cyan-400 transition-all duration-300 shadow-lg">
-                  Hire Me
-              </button>
+           <a
+  href="mailto:prudhvich1116@gmail.com?subject=Job%20Opportunity%20for%20Prudhvi%20Chalapareddy"
+  className="bg-cyan-500 text-slate-900 px-8 py-3 rounded-xl font-semibold hover:scale-105 hover:bg-cyan-400 transition-all duration-300"
+>
+  Hire Me
+</a>
 
-            <button className="border-2 border-cyan-500 text-white px-8 py-3 rounded-xl hover:bg-cyan-500 hover:text-slate-900 transition-all duration-300">
-                 Download Resume
-             </button>
+            <a
+  href="/resume.pdf"
+  download="Prudhvi_Chalapareddy_Resume.pdf"
+  className="border-2 border-cyan-500 text-white px-8 py-3 rounded-xl hover:bg-cyan-500 hover:text-slate-900 transition-all duration-300"
+>
+  Download Resume
+</a>
 
           </div>
           <div className="flex gap-6 mt-8 text-3xl text-cyan-400">
