@@ -9,7 +9,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen pt-36 md:pt-28 px-4 md:px-8"
+      className="min-h-screen pt-32 md:pt-28 px-4 md:px-8"
     >
       <div className="max-w-7xl mx-auto w-full min-h-0 md:min-h-[calc(100vh-80px)] grid md:grid-cols-2 gap-10 md:gap-16 items-start md:items-center pt-4 md:pt-10">
 
